@@ -14,9 +14,9 @@ Zeigt Datum und Uhrzeit in Seiten an.
 
 Erstelle eine `[datetime]`-Abkürzung. Das folgende optionale Argument ist verfügbar: 
 
-`Format` = Datumsformat  
+`Format` = Datums- und Zeitformat  
 
-Mit dieser Inline-Abkürzung können Informationen zu Datum und Zeit in deinen Seiten angezeigt werden. Es kann nützlich sein, um deine Besucher abwechslungsreicher zu begrüßen oder um das Jahr in deiner Copyright-Notiz automatisch aktuell zu halten. Verwende zum Anpassen der Ausgabe die von PHP unterstützten [Datumsformate](https://www.php.net/manual/de/datetime.formats.php). 
+Mit dieser Inline-Abkürzung können Informationen zu Datum und Uhrzeit in deinen Seiten angezeigt werden. Es kann nützlich sein, um deine Besucher abwechslungsreicher zu begrüßen oder um das Jahr in deiner Copyright-Notiz automatisch aktuell zu halten. Verwende zum Anpassen der Ausgabe die von PHP unterstützten [Datums- und Zeitformate](https://www.php.net/manual/de/datetime.formats.php). 
 
 ## Beispiele
 
