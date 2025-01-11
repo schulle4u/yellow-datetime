@@ -16,7 +16,7 @@ Create a `[datetime]` shortcut. The following optional argument is available:
 
 `Format` = date and time format  
 
-This inline shortcut can be used to display date and time information in your pages.  You may use it to welcome your visitors in a different way, or just to automatically keep the year in your copyright notice updated. Use the [date and time formats](https://www.php.net/manual/en/datetime.formats.php) supported by PHP to customize the output.
+This inline shortcut can be used to display date and time information in your pages.  You may use it to welcome your visitors in a different way, or just to automatically keep the year in your copyright notice updated. Use the presets short, medium and long, or one of the [date and time formats](https://www.php.net/manual/en/datetime.formats.php) supported by PHP to customize the output.
 
 ## Examples
 
@@ -26,7 +26,7 @@ Basic usage:
 
 Different format:
 
-    Date: [datetime Y-m-d]
+    Date: [datetime medium]
 
 Shared footer page with copyright notice: 
 
