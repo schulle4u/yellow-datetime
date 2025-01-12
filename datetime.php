@@ -21,7 +21,7 @@ class YellowDatetime {
                 case "medium": $format = $this->yellow->language->getTextHtml("coreDateFormatMedium"); break;
                 case "long": $format = $this->yellow->language->getTextHtml("coreDateFormatLong"); break;
             }
-            $output .= "<span class=\"".htmlspecialchars($name)."\">".htmlspecialchars(date($format))."</span>";
+            $output .= "<span class=\"".htmlspecialchars($name)."\">".htmlspecialchars($this->yellow->language->getDateFormatted(time(), $format))."</span>";
         }
         return $output;
     }
