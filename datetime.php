@@ -15,11 +15,14 @@ class YellowDatetime {
         $output = null;
         if ($name=="datetime" && ($type=="inline")) {
             list($format) = $this->yellow->toolbox->getTextArguments($text);
-            if (is_string_empty($format)) $format = "long";
+            if (is_string_empty($format)) $format = "datelong";
             switch($format) {
-                case "short": $format = $this->yellow->language->getTextHtml("coreDateFormatShort"); break;
-                case "medium": $format = $this->yellow->language->getTextHtml("coreDateFormatMedium"); break;
-                case "long": $format = $this->yellow->language->getTextHtml("coreDateFormatLong"); break;
+                case "timeshort": $format = $this->yellow->language->getTextHtml("coreTimeFormatShort"); break;
+                case "timemedium": $format = $this->yellow->language->getTextHtml("coreTimeFormatMedium"); break;
+                case "timelong": $format = $this->yellow->language->getTextHtml("coreTimeFormatLong"); break;
+                case "dateshort": $format = $this->yellow->language->getTextHtml("coreDateFormatShort"); break;
+                case "datemedium": $format = $this->yellow->language->getTextHtml("coreDateFormatMedium"); break;
+                case "datelong": $format = $this->yellow->language->getTextHtml("coreDateFormatLong"); break;
             }
             $output .= "<span class=\"".htmlspecialchars($name)."\">".htmlspecialchars($this->yellow->language->getDateFormatted(time(), $format))."</span>";
         }
