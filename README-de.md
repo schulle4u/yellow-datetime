@@ -16,7 +16,16 @@ Erstelle eine `[datetime]`-Abkürzung. Das folgende optionale Argument ist verf�
 
 `Format` = Datums- und Zeitformat  
 
-Mit dieser Inline-Abkürzung können Informationen zu Datum und Uhrzeit in deinen Seiten angezeigt werden. Es kann nützlich sein, um deine Besucher abwechslungsreicher zu begrüßen oder um das Jahr in deiner Copyright-Notiz automatisch aktuell zu halten. Verwende zum Anpassen der Ausgabe die Vorlagen short, medium und long oder eines der von PHP unterstützten [Datums- und Zeitformate](https://www.php.net/manual/de/datetime.formats.php). 
+Die folgenden sprachspezifischen Vorlagen sind als Format verfügbar: 
+
+`timeshort` = Kurzes Zeitformat, Stunden und Minuten  
+`timemedium` = Mittleres Zeitformat, Stunden, Minuten und Sekunden  
+`timelong` = Langes Zeitformat, Stunden, Minuten, Sekunden und Zeitzone  
+`dateshort` = Kurzes Datumsformat, Monat und Jahr  
+`datemedium` = Mittleres Datumsformat, numerischer Tag, Monat und Jahr  
+`datelong` = Langes Datumsformat, Datum und Zeit  
+
+Mit dieser Inline-Abkürzung können Informationen zu Datum und Uhrzeit in deinen Seiten angezeigt werden. Es kann nützlich sein, um deine Besucher abwechslungsreicher zu begrüßen oder um das Jahr in deiner Copyright-Notiz automatisch aktuell zu halten. Verwende zum Anpassen der Ausgabe eine der Formatvorlagen oder die von PHP unterstützten [Datums- und Zeitformate](https://www.php.net/manual/de/datetime.formats.php). 
 
 ## Beispiele
 
@@ -26,7 +35,7 @@ Allgemeine Verwendung:
 
 Abweichendes Format:
 
-    Datum: [datetime medium]
+    Datum: [datetime datemedium]
 
 Geteilte Footer-Seite mit Copyrighthinweis: 
 
