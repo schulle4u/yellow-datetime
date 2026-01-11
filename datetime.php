@@ -16,7 +16,7 @@ class YellowDatetime {
         if ($name=="datetime" && ($type=="inline")) {
             list($format) = $this->yellow->toolbox->getTextArguments($text);
             if (is_string_empty($format)) $format = "datelong";
-            switch($format) {
+            switch ($format) {
                 case "timeshort": $format = $this->yellow->language->getTextHtml("coreTimeFormatShort"); break;
                 case "timemedium": $format = $this->yellow->language->getTextHtml("coreTimeFormatMedium"); break;
                 case "timelong": $format = $this->yellow->language->getTextHtml("coreTimeFormatLong"); break;
