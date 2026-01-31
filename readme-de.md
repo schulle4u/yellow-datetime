@@ -1,8 +1,6 @@
-<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a></p>
-
 # Datetime 0.9.0
 
-Zeigt Datum und Uhrzeit in Seiten an.
+Datum und Uhrzeit in Seiten anzeigen. Entwickelt von Steffen Schultz.
 
 <p align="center"><img src="screenshot.png" alt="Bildschirmfoto"></p>
 
@@ -47,6 +45,4 @@ Status: shared
 Copyright &copy; 2013-[datetime Y] Datenstrom
 ```
 
-## Entwickler
-
-Steffen Schultz. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
+Hast du Fragen? [Hilfe finden](https://datenstrom.se/de/yellow/help/).

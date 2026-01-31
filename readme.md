@@ -1,8 +1,6 @@
-<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a></p>
-
 # Datetime 0.9.0
 
-Show date and time in your pages.
+Show date and time in your pages. Developed by Steffen Schultz.
 
 <p align="center"><img src="screenshot.png" alt="Screenshot"></p>
 
@@ -47,6 +45,4 @@ Status: shared
 Copyright &copy; 2013-[datetime Y] Datenstrom
 ```
 
-## Developer
-
-Steffen Schultz. [Get help](https://datenstrom.se/yellow/help/).
+Do you have questions? [Get help](https://datenstrom.se/yellow/help/).
